@@ -6,7 +6,7 @@ function Footer(){
             <div className="container">
                 <div className="row">
                     <div className="col-md-10 col-md-offset-1 text-center">
-                        <p className="footer-text">Made with <span style={{color: "#e91e63"}}>&hearts;</span> by Dewansh Rawat</p>
+                        <p className="footer-text">Forked From Dewansh Rawat <span style={{color: "#e91e63"}}>&hearts;</span></p>
                     </div>
                 </div>
             </div>

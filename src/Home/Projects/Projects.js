@@ -22,22 +22,22 @@ function Projects(props) {
                 projectTitle: "eStudier",
                 projectTagline: "Pen down your daily thoughts in a more accessible way!",
                 projectDetails: "Thoughts aim to provide you a platform to write down about your day. Write down your thoughts and write about your experiences.",
-                projectThumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-12073.appspot.com/o/WhatsApp%20Image%202021-06-27%20at%2015.47.33_google-pixel4-ohsoorange-portrait.png?alt=media&token=0c1b9ec0-76a8-48be-9898-b18e8e0020cc",
+                projectThumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-12073.appspot.com/o/WhatsApp%20Image%202021-06-27%20at%2015.47.33_google-pixel4-ohsoorange-portrait.png?alt=media&token=12be0b68-88d6-4f98-92d8-9d34719bb210",
                 website: "https://youtu.be/ov1BuNFTgw8"
             },
             {
                 projectTitle: "AgroTech (In process)",
-                projectTagline: "Reshaping the way modern India cooks!",
-                projectDetails: "Cuisinier is a smart platform where the app suggests the most optimum usage of the ingredients being used to prepare a particular dish.",
+                projectTagline: "Building A Better Tomorrow!",
+                projectDetails: "Agro-Tech is an Android-based mobile application. It provides complete information on Crop Production, Crop Protection, smart farming with agriculture, and allied services.",
                 projectThumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-12073.appspot.com/o/Homepage_google-pixel4-ohsoorange-portrait.png?alt=media&token=5d56e610-6439-4023-afc8-b1f92ab3c13b",
-                website: "https://the-cuisinier.co/"
+                website: ""
             },
             {
                 projectTitle: "Niche (In process)",
-                projectTagline: "A mobile app to play rock paper scissors online!",
-                projectDetails: "The idea was to build a Mobile game purely based on stream data events, state management techniques and database operations.",
+                projectTagline: "Happiness is not in Money, But in Shopping!",
+                projectDetails: "Discover unique stores in your favourite city – get insider shopping tips only locals would know. Search for specific products and brands around you and be inspired by the newsfeed that shows you offers and new arrivals of stores nearby.",
                 projectThumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-12073.appspot.com/o/NEW_Home_google-pixel4-ohsoorange-portrait.png?alt=media&token=f0ff3f0e-011b-438b-bb1b-6d53cfa62d86",
-                website: "https://devfolio.co/submissions/rock-paper-scissors-4"
+                website: ""
             }
         ];
         let projectRowsList = [];

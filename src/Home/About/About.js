@@ -23,9 +23,9 @@ function About(props) {
                     <div className="row">
                         <div className="col-md-10 col-md-offset-1 text-center">
                             <p className="about-text">
-                                I am a third year undergrad student pursuing my career in Information Technology. I am the Core Team Member for Google Developers Student Clubs, Bharati Vidyapeeth Deemed University College of Engineering, Pune.
+                                I am a third year undergrad student pursuing my career in Information Technology. I am the Core Team Member of Google Developers Student Clubs, Bharati Vidyapeeth Deemed University College of Engineering, Pune.
                                 <br /><br />
-                                I love to innovate, ideate and build technical solutions to solve common daily life problems. Also, I speak on various topics like Open Source, Flutter, TensorFlow, Django and ReactJS.
+                                I love to innovate, ideate and build technical solutions to solve common daily life problems. I have worked with Android Studio, Angular, React js and many more.
                                 <br /><br />
                                 Wanna know more about me? Check out my CV.
                             </p>

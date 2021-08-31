@@ -41,27 +41,7 @@ function ExperienceCard(props) {
             </div>
         );
     }
-    else{
-        return (
-            <div className="experience-card">
-                <div className="row">
-                    <div className="col-md-12">
-                        <h1 className="experience-position-title-dark">{title} - {orgComponent}</h1>
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="col-md-12">
-                        <h4 className="experience-position-date-dark">{startDate} - {endDate}</h4>
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="col-md-12">
-                        <h4 className="experience-position-details-dark">{details}</h4>
-                    </div>
-                </div>
-            </div>
-        );
-    }
+    
 }
 
 export default ExperienceCard;

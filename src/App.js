@@ -5,8 +5,6 @@ import Experience from "./Home/Experience/Experience";
 import Contact from "./Home/Contact/Contact";
 import Footer from "./Home/Footer/Footer";
 
-import * as firebaseServices from "./services/firestore";
-import { useEffect, useState } from "react";
 
 function App() {
 
