@@ -3,13 +3,13 @@ import "firebase/firestore";
 import { getDate } from "./utils";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyAYRqfJ-hEWLU8q6e3mxn5ot9jQo2rqwp0",
-    authDomain: "portfolio-0011.firebaseapp.com",
-    databaseURL: "https://portfolio-0011.firebaseio.com",
-    projectId: "portfolio-0011",
-    storageBucket: "portfolio-0011.appspot.com",
-    messagingSenderId: "658893334394",
-    appId: "1:658893334394:web:b38c4a89b528b49ec4d8c3"
+    databaseURL: "https://portfolio-12073-default-rtdb.firebaseio.com/",
+    apiKey: "AIzaSyB_nlstN70QI4OC36r9PRe3ghhRngv26Vo",
+    authDomain: "portfolio-12073.firebaseapp.com",
+    projectId: "portfolio-12073",
+    storageBucket: "portfolio-12073.appspot.com",
+    messagingSenderId: "1085157311255",
+    appId: "1:1085157311255:web:bd2327637a95951ca72d52"
 };
 
 if (!firebase.apps.length) {

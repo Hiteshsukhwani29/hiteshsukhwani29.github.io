@@ -5,67 +5,31 @@ import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 function Socials(props) {
     let socials = props.socials;
     function triggerSocialLink(platform){
-        if(socials === undefined){
             switch (platform) {
                 case "mail":
-                    window.open("mailto:dewanshrawat15@gmail.com")
+                    window.open("mailto:hiteshsukhwani29@gmail.com")
                     break;
                 case "github":
-                    window.open("https://github.com/dewanshrawat15")
+                    window.open("https://github.com/Hiteshsukhwani29")
                     break;
                 case "facebook":
-                    window.open("https://www.facebook.com/dewanshrawat15")
-                    break;
-                case "medium":
-                    window.open("http://medium.com/@dewanshrawat15")
-                    break;
-                case "spotify":
-                    window.open("https://open.spotify.com/user/dewanshrawat15")
+                    window.open("https://www.facebook.com/hitesh.sukhwani.12")
                     break;
                 case "instagram":
-                    window.open("https://www.instagram.com/dewanshrawat15/")
+                    window.open("https://www.instagram.com/sukhwanihitesh_/")
                     break;
                 case "linkedin":
-                    window.open("https://www.linkedin.com/in/dewanshrawat15/")
+                    window.open("https://www.linkedin.com/in/hitesh-sukhwani-14b722135/")
                     break;
                 case "twitter":
-                    window.open("https://www.twitter.com/dewanshrawat15/")
+                    window.open("https://twitter.com/hiteshsukhwani6")
                     break;
                 default:
                     break;
             }
-        }
-        else{
-            switch (platform) {
-                case "mail":
-                    window.open("mailto:" + socials.mail)
-                    break;
-                case "github":
-                    window.open(socials.github)
-                    break;
-                case "facebook":
-                    window.open(socials.facebook)
-                    break;
-                case "medium":
-                    window.open(socials.medium)
-                    break;
-                case "spotify":
-                    window.open(socials.spotify)
-                    break;
-                case "instagram":
-                    window.open(socials.instagram)
-                    break;
-                case "linkedin":
-                    window.open(socials.linkedin)
-                    break;
-                case "twitter":
-                    window.open(socials.twitter)
-                    break;
-                default:
-                    break;
-            }
-        }
-    }
+       
+      }
+    
 
     return (
         <div className="row">
@@ -90,17 +54,11 @@ function Socials(props) {
                         <li>
                             <FontAwesomeIcon onClick={() => triggerSocialLink('twitter')} className="socials-icon-dark" icon={faTwitter} />
                         </li>
-                        <li>
-                            <FontAwesomeIcon onClick={() => triggerSocialLink('spotify')} className="socials-icon-dark" icon={faSpotify} />
-                        </li>
-                        <li>
-                            <FontAwesomeIcon onClick={() => triggerSocialLink('medium')} className="socials-icon-dark" icon={faMedium} />
-                        </li>
                     </ul>
                 </center>
             </div>
         </div>
     );
-}
+    }
 
 export default Socials;
